@@ -17,4 +17,4 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     log("----------------------------------------------------");
 };
 
-module.exports.tags = ["sourcechain", "all"];
+module.exports.tags = ["all", "sourcechain"];

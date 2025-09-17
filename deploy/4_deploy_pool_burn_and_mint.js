@@ -22,4 +22,4 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     log("----------------------------------------------------");
 };
 
-module.exports.tags = ["destchain", "all"];
+module.exports.tags = ["all", "destchain"];

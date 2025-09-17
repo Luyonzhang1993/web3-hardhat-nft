@@ -14,4 +14,4 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     log("----------------------------------------------------");
 };
 
-module.exports.tags = ["test", "CCIPSimulator"];
+module.exports.tags = ["all", "test", "CCIPSimulator"];
