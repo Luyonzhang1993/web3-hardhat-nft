@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy_local": "hardhat deploy",
+    "deploy_sepolia": "hardhat deploy --network sepolia",
+    "deploy_amoy": "hardhat deploy --network amoy"
   },
   "keywords": [],
   "author": "",
