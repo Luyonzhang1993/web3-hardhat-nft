@@ -3,4 +3,5 @@ module.exports = {
     mintNFT: require("./mint-nft"),
     lockAndCross: require("./lock-and-cross"),
     checkWNFT: require("./check-wnft"),
+    burnAndCross: require("./burn-and-cross"),
 }
